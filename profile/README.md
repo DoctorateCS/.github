@@ -10,10 +10,10 @@ It's also a great tool for people that wanna experiment and try things in a more
 
 ## Tools 
 
-* ArkLogger => To save all the requests made
-* RedirectToCustomServer => To make the game connect to our custom server
-* DoctorateCS => The server itself
-* frida-scripts => Several experiments related to the native code of the game
+* [ArkLogger](https://github.com/DoctorateCS/ArkLogger) => To save all the requests made
+* [RedirectToCustomServer](https://github.com/DoctorateCS/RedirectToCustomServer) => To make the game connect to our custom server
+* [DoctorateCS](https://github.com/DoctorateCS/DoctorateCS) => The server itself
+* [frida-scripts](https://github.com/DoctorateCS/frida-scripts) => Several experiments related to the native code of the game
 
 ## How To
 
