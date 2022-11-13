@@ -40,6 +40,6 @@ It's also a great tool for people that wanna experiment and try things in a more
 
 Just write me a message on any social network at
 
-Telegram: @insomnyawolf
-Discord: insomnyawolf#9895
-Twitter: @insomnyawolf (may take a while to answer here, i rarely use it)
+Telegram: @insomnyawolf  
+Discord: insomnyawolf#9895  
+Twitter: @insomnyawolf (may take a while to answer here, i rarely use it)  
