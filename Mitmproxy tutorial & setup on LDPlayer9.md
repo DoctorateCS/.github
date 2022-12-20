@@ -1,7 +1,5 @@
 # Mitmproxy tutorial & setup on LDPlayer9
 
-[Video showing what to do]()
-
 ## Mitmproxy download
 
 [https://mitmproxy.org/](https://mitmproxy.org/)

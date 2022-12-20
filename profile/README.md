@@ -17,6 +17,30 @@ It's also a great tool for people that wanna experiment and try things in a more
 
 ## How To
 
+### How to prepare mitmproxy
+
+#### Official docs
+
+* [Installing mitmproxy on your host machine](https://docs.mitmproxy.org/stable/overview-installation/)
+* [Configure mitmproxy as proxy in the client device](https://docs.mitmproxy.org/stable/overview-getting-started/#configure-your-browser-or-device)
+
+#### Videotutorial
+
+[Video showing what to do](https://youtu.be/RKmetaN6No4)
+
+[File shown in video](https://github.com/DoctorateCS/.github/blob/main/Mitmproxy%20tutorial%20%26%20setup%20on%20LDPlayer9.md)
+
+##### Android CA-Cert Setup (second part of the video)
+
+  1. Install the certificate
+  2. Convert the certificate into a "trusted root certificate
+     * Method A: [Magisk Module](https://github.com/NVISOsecurity/MagiskTrustUserCerts/blob/master/post-fs-data.sh)
+     * Method B: Manually
+        1. Navigate to ``/data/misc/user/0/cacerts-added/``
+        2. Cut the installed certificate
+        3. Navigate to ``/system/etc/security/cacerts/``
+        4. Paste the certificate here
+
 ### How to use the custom server
 
 1. Execute RedirectToCustomServer
