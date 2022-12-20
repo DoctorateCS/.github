@@ -8,7 +8,7 @@
 
 ## Get IP Windows
 
-Right click on the windows icon then on terminal
+Click on the windows icon then type ``cmd`` and press enter
 
 ```
 ipconfig/all
