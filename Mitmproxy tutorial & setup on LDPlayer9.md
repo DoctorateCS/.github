@@ -1,19 +1,37 @@
 # Mitmproxy tutorial & setup on LDPlayer9
 
-* Mitmproxy download
+[Video showing what to do]()
+
+## Mitmproxy download
 
 [https://mitmproxy.org/](https://mitmproxy.org/)
 
-* Get IP Windows
+## Get IP Windows
 
-Usually you need to pick a number that starts with ``192.168``
+Right click on the windows icon then on terminal
 
 ```
 ipconfig/all
 ```
 
+Usually you need to pick a number that starts with ``192.168``
+
 If you set up a static ip on your computer you won't need to update the proxy config often
 
-* Mitm proxy connection test
+## Mitm proxy connection test
 
 [http://mitm.it/](http://mitm.it/)
+
+## Move the certificate to convert it into a root certificate
+
+Origin path
+
+```
+/data/misc/user/0/cacerts-added/
+```
+
+Target path
+
+```
+/system/etc/security/cacerts/
+```
