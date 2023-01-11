@@ -1,6 +1,6 @@
 # Doctorate
 
-Those are a group of tools for a certain game
+Those are a group of tools for a certain game (opensource on request)
 
 ## Objetives
 
