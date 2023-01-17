@@ -68,4 +68,6 @@ Telegram: @insomnyawolf
 Discord: insomnyawolf#9895  
 Twitter: @insomnyawolf (may take a while to answer here, i rarely use it)
 
-Or join our [discord server](https://discord.gg/eQF8trSKqM) ![Discord Shield](https://discordapp.com/api/guilds/1065000078286270484/widget.png?style=shield) and do it there 
+Or join our [https://discord.gg/eQF8trSKqM](https://discord.gg/eQF8trSKqM) and do it there 
+
+![Discord Shield](https://discordapp.com/api/guilds/1065000078286270484/widget.png?style=shield) 
