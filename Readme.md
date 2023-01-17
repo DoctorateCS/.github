@@ -24,6 +24,12 @@
 
 [Filters](https://docs.mitmproxy.org/stable/concepts-filters/)
 
+load flows
+
+```
+mitmproxy --no-server --rfile "2023-01-16"
+```
+
 ### Frida
 
 [Frida](https://frida.re/docs/javascript-api/)
