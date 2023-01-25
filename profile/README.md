@@ -8,59 +8,48 @@ Creating a custom server completly standalone that doesn't rely in the original 
 even after the oficial game servers close.
 It's also a great tool for people that wanna experiment and try things in a more "sandbox" like way
 
-## Tools 
-
-* [ArkLogger](https://github.com/DoctorateCS/ArkLogger) => To save all the requests made
-* [RedirectToCustomServer](https://github.com/DoctorateCS/RedirectToCustomServer) => To make the game connect to our custom server
-* [DoctorateCS](https://github.com/DoctorateCS/DoctorateCS) => The server itself
-* [frida-scripts](https://github.com/DoctorateCS/frida-scripts) => Several experiments related to the native code of the game
-
 ## How To
 
-### How to prepare mitmproxy
+### Run the server
 
-#### Official docs
+#### Prequisites
 
-* [Installing mitmproxy on your host machine](https://docs.mitmproxy.org/stable/overview-installation/)
-* [Configure mitmproxy as proxy in the client device](https://docs.mitmproxy.org/stable/overview-getting-started/#configure-your-browser-or-device)
+* Emulator with 
+  * Root access
+  * The game installed
+* Computer with
+  * Python [Python](https://www.python.org/downloads/)
+  * Asp.Net Runtime or SDK [.NET](https://dotnet.microsoft.com/en-us/download) (currently using .net 6 but will be updated to .net 7 soon)
 
-#### Videotutorial
+#### Steps
 
-[Video showing what to do](https://youtu.be/RKmetaN6No4)
+1. Things to download
+   1. The server [DoctorateCS]
+      1. Build it from source or download precompiled binaries (currently not availabe)
+   2. The patcher [DoctorateInyector]
 
-[File shown in video](https://github.com/DoctorateCS/.github/blob/main/Mitmproxy%20tutorial%20%26%20setup%20on%20LDPlayer9.md)
+2. Launch the ``DoctorateCS`` server on [DoctorateCS] folder
 
-##### Android CA-Cert Setup (second part of the video)
+3. Configure the ip and port on the ``DoctorateInyector/FridaAgent/config.json``
+4. Launch Patch.bat on [DoctorateInyector]
 
-  1. Install the certificate
-  2. Convert the certificate into a "trusted root certificate
-     * Method A: [Magisk Module](https://github.com/NVISOsecurity/MagiskTrustUserCerts/blob/master/post-fs-data.sh)
-     * Method B: Manually
-        1. Navigate to ``/data/misc/user/0/cacerts-added/``
-        2. Cut the installed certificate
-        3. Navigate to ``/system/etc/security/cacerts/``
-        4. Paste the certificate here
+### Setup mitmproxy to develop the server
 
-### How to use the custom server
+[MitmProxySetup.md](/MitmProxySetup.md)
 
-1. Execute RedirectToCustomServer
-2. Execute DoctorateCS
-3. Launch the game and enjoy
+## How does it work
 
-### How to play CC
+We redirect the requests being made by the game to our own server and that's pretty much it.
 
-1. Execute RedirectToCustomServer
-2. Execute DoctorateCS
-3. Select the desired crisis in the preferences file
-4. Execute the CCVerificationBypass script in the frida-scripts (It will automatically launch the game ans spoof the requiered checks to make it work)
+## How we know what we should code to make things working
 
-### How to log requests
+Everything Is Chaos
 
-1. Execute ArkLogger
-2. Execute the game
-3. Do things and the requests will start appearing in ``ArkLogger/data``
+It was a mix between dumping files from memory, reverse-engineering and data traffic analisys, the rest is trial and error and figure out things step by step
 
 ## Suggestions, requests or anything you need
+
+I know the documentation is bad, and i'm really sorry about it but i don't really know how to make it better.
 
 Just write me a message on any social network at
 
@@ -68,6 +57,8 @@ Telegram: @insomnyawolf
 Discord: insomnyawolf#9895  
 Twitter: @insomnyawolf (may take a while to answer here, i rarely use it)
 
-Or join our [https://discord.gg/eQF8trSKqM](https://discord.gg/eQF8trSKqM) and do it there 
+Or join our [Discord] and do it there
 
-![Discord Shield](https://discordapp.com/api/guilds/1065000078286270484/widget.png?style=shield) 
+[Discord]: https://discord.gg/pUj8HQ5FQU
+[DoctorateCS]: https://github.com/DoctorateCS/DoctorateCS
+[DoctorateInyector]: https://github.com/DoctorateCS/DoctorateInyector

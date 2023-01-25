@@ -30,6 +30,10 @@ load flows
 mitmproxy --no-server --rfile "2023-01-16"
 ```
 
+```
+frida -U --load "agent.js" --timeout 999999  --realm "emulated" --attach-name Arknights
+```
+
 ### Frida
 
 [Frida](https://frida.re/docs/javascript-api/)
