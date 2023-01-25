@@ -28,9 +28,10 @@ It's also a great tool for people that wanna experiment and try things in a more
       1. Build it from source or download precompiled binaries (currently not availabe)
    2. The patcher [DoctorateInyector]
 
-2. Launch the ``DoctorateCS`` server on [DoctorateCS] folder
+2. Launch the [DoctorateCS] server on ``DoctorateCS`` folder
 
-3. Configure the ip and port on the ``DoctorateInyector/FridaAgent/config.json``
+3. Configure the ip and port on the ``DoctorateInyector/FridaAgent/config.json`` file
+
 4. Launch Patch.bat on [DoctorateInyector]
 
 ### Setup mitmproxy to develop the server
