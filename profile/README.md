@@ -19,7 +19,7 @@ It's also a great tool for people that wanna experiment and try things in a more
   * The game installed
 * Computer with
   * Python [Python](https://www.python.org/downloads/)
-  * Asp.Net Runtime or SDK [.NET](https://dotnet.microsoft.com/en-us/download) (currently using .net 6 but will be updated to .net 7 soon)
+  * Asp.Net Runtime or SDK [.NET](https://dotnet.microsoft.com/en-us/download) (use .net 7 )
 
 #### Steps
 
