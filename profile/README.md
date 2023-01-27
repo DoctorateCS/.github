@@ -32,7 +32,11 @@ It's also a great tool for people that wanna experiment and try things in a more
 
 3. Configure the ip and port on the ``DoctorateInyector/FridaAgent/config.json`` file
 
-4. Launch Patch.bat on [DoctorateInyector]
+4. Enable root and adb in your device
+
+5. Start (or restart) your device
+
+6. Launch Patch.bat on [DoctorateInyector], it may fail to find the device several times, just retry it a few times if it still doesn't work then contact me and i'll try to fix it
 
 ### Setup mitmproxy to develop the server
 
