@@ -1,6 +1,10 @@
 # Doctorate
 
-Those are a group of tools for a certain game (opensource on request)
+Those are a group of tools for a certain game (opensource on request, just write me a message)
+
+## Game Download
+
+[Link](https://arknights.moe/download)
 
 ## Objetives
 
