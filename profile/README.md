@@ -23,9 +23,11 @@ It's also a great tool for people that wanna experiment and try things in a more
 
 1. Install the prequisites
 
-[Setup Emulator Example]()
+[Setup Emulator Example Video Tutorial](https://youtu.be/dtjgg1dcAOQ)
 
 2. Download the requiered repositories
+
+[Download Everything Video Tutorial](https://youtu.be/W5j2fOhOikA)
 
 [DoctorateDocs]
 
@@ -47,6 +49,7 @@ git clone https://github.com/DoctorateCS/DoctorateInyector
 
 3. Download and install the game
 
+
 You can download the game from the following links
 
 [Link ARMV7](https://arknights.moe/download-32) <= Use This one
@@ -55,15 +58,15 @@ You can download the game from the following links
 
 Extract the contents and use the provided script to easily install it
 
-[Install The Game]()
+[Install The Game Video Tutorial](https://youtu.be/1tqyDbXksaM)
 
 4. Start [DoctorateCS] Server
 
-[Start Server]()
+[Start Server Video Tutorial](https://youtu.be/gB956k_6AHA)
 
 5. Start [DoctorateInyector] Server
 
-[Start Patcher]()
+[Start Patcher Video Tutorial](https://youtu.be/S0doMU9SmGg)
 
 ### Setup mitmproxy to develop the server
 
