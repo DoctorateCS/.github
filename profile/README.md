@@ -16,8 +16,9 @@ It's also a great tool for people that wanna experiment and try things in a more
 
 * Emulator or device with Root access
 * Computer with
-  * Python [Python](https://www.python.org/downloads/)
-  * Asp.Net SDK (Runtime works as well but sdk has everything packed) [.NET](https://dotnet.microsoft.com/en-us/download) (use .net 7)
+  * [Git](https://git-scm.com/)
+  * [Python](https://www.python.org/downloads/)
+  * [.NET SDK](https://dotnet.microsoft.com/en-us/download) (use .net 7) (Asp.Net Runtime could work as well)
 
 #### Steps
 
@@ -48,7 +49,6 @@ git clone https://github.com/DoctorateCS/DoctorateInyector
 ```
 
 3. Download and install the game
-
 
 You can download the game from the following links
 
