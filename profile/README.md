@@ -2,10 +2,6 @@
 
 Those are a group of tools for a certain game (opensource on request, just write me a message)
 
-## Game Download
-
-[Link](https://arknights.moe/download)
-
 ## Objetives
 
 Creating a custom server completly standalone that doesn't rely in the original servers in any way so people can still play the game,
@@ -14,33 +10,60 @@ It's also a great tool for people that wanna experiment and try things in a more
 
 ## How To
 
-### Run the server
+### Get Things Working
 
 #### Prequisites
 
-* Emulator with 
-  * Root access
-  * The game installed
+* Emulator or device with Root access
 * Computer with
   * Python [Python](https://www.python.org/downloads/)
-  * Asp.Net Runtime or SDK [.NET](https://dotnet.microsoft.com/en-us/download) (use .net 7 )
+  * Asp.Net SDK (Runtime works as well but sdk has everything packed) [.NET](https://dotnet.microsoft.com/en-us/download) (use .net 7)
 
 #### Steps
 
-1. Things to download
-   1. The server [DoctorateCS]
-      1. Build it from source or download precompiled binaries (currently not availabe)
-   2. The patcher [DoctorateInyector]
+1. Install the prequisites
 
-2. Launch the [DoctorateCS] server on ``DoctorateCS`` folder
+[Setup Emulator Example]()
 
-3. Configure the ip and port on the ``DoctorateInyector/FridaAgent/config.json`` file
+2. Download the requiered repositories
 
-4. Enable root and adb in your device
+[DoctorateDocs]
 
-5. Start (or restart) your device
+```
+git clone https://github.com/DoctorateCS/.github
+```
 
-6. Launch Patch.bat on [DoctorateInyector], it may fail to find the device several times, just retry it a few times if it still doesn't work then contact me and i'll try to fix it
+[DoctorateCS]
+
+```
+git clone https://github.com/DoctorateCS/DoctorateCS
+```
+
+[DoctorateInyector]
+
+```
+git clone https://github.com/DoctorateCS/DoctorateInyector
+```
+
+3. Download and install the game
+
+You can download the game from the following links
+
+[Link ARMV7](https://arknights.moe/download-32) <= Use This one
+
+[Link ARMV8](https://arknights.moe/download-64)
+
+Extract the contents and use the provided script to easily install it
+
+[Install The Game]()
+
+4. Start [DoctorateCS] Server
+
+[Start Server]()
+
+5. Start [DoctorateInyector] Server
+
+[Start Patcher]()
 
 ### Setup mitmproxy to develop the server
 
@@ -69,5 +92,6 @@ Twitter: @insomnyawolf (may take a while to answer here, i rarely use it)
 Or join our [Discord] and do it there
 
 [Discord]: https://discord.gg/pUj8HQ5FQU
+[DoctorateDocs]: https://github.com/DoctorateCS/.github
 [DoctorateCS]: https://github.com/DoctorateCS/DoctorateCS
 [DoctorateInyector]: https://github.com/DoctorateCS/DoctorateInyector
