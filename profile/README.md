@@ -52,9 +52,9 @@ git clone https://github.com/DoctorateCS/DoctorateInyector
 
 You can download the game from the following links
 
-[Link ARMV7](https://arknights.moe/download-32) <= Use This one
+[Link ARMV7](https://arknights.moe/download-32) <= Use this for emulators
 
-[Link ARMV8](https://arknights.moe/download-64)
+[Link ARMV8](https://arknights.moe/download-64) <= Use this for real devices if supported
 
 Extract the contents and use the provided script to easily install it
 
