@@ -94,7 +94,9 @@ Twitter: @insomnyawolf (may take a while to answer here, i rarely use it)
 
 Or join our [Discord] and do it there
 
-[Discord]: https://discord.gg/pUj8HQ5FQU
+Discord link is back up, i talked with the server owner and he's fine on having working invite link again \\:D/
+
+[Discord]: https://discord.gg/qV3yXpfFaG
 [DoctorateDocs]: https://github.com/DoctorateCS/.github
 [DoctorateCS]: https://github.com/DoctorateCS/DoctorateCS
 [DoctorateInyector]: https://github.com/DoctorateCS/DoctorateInyector
